@@ -1,14 +1,11 @@
 <?php
 
 $dbhost = getenv("MYSQL_SERVICE_HOST");
-$dbusername = getenv("dbusername");
-$dbpassword = getenv("dbpassword");
-$dbname = getenv("dbname");
+$dbusername = 'root';
+$dbpassword = 'ubaya';
+$dbname = 'sampledb';
 
-echo getenv("dbusername");
-die();
-
-$c = new mysqli($dbhost, $dbusername, $dbpassword, $dbname);
+$c = new mysqli($dbhost, $dbusername, $dbpassword, $dbname, 3306);
 if ($c->connect_error) {
   echo "Unable to connect, please try again";
   die();
