@@ -21,7 +21,9 @@
     }
   </style>
 </head>
-
+<?php
+require_once("database.php");
+?>
 <body>
 
   <h2>Taxi Online</h2>
