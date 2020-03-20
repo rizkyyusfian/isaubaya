@@ -23,15 +23,8 @@
 </head>
 
 <?php
-header("Access-Control-Allow-Origin: *");
-
-$c = new mysqli("localhost", "root", "hunter", "");
-if ($c->connect_error) {
-  echo "Unable to connect, please try again";
-  die();
-}
+require_once('database.php');
 ?>
-
 <body>
 
   <h2>Taxi Online</h2>
