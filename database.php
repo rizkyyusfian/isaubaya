@@ -5,7 +5,7 @@ $dbusername = 'root';
 $dbpassword = 'ubaya';
 $dbname = 'sampledb';
 
-$c = new mysqli($dbhost, $dbusername, $dbpassword, $dbname, 3306);
+$c = new mysqli($dbhost, $dbusername, $dbpassword, $dbname);
 if ($c->connect_error) {
   echo "Unable to connect, please try again";
   die();
