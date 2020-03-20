@@ -5,7 +5,7 @@ $dbusername = getenv("dbusername");
 $dbpassword = getenv("dbpassword");
 $dbname = getenv("dbname");
 
-echo getenv("dbpassword");
+echo getenv("dbusername");
 die();
 
 $c = new mysqli($dbhost, $dbusername, $dbpassword, $dbname);
