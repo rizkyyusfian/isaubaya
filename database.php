@@ -1,9 +1,9 @@
 <?php
 
 $dbhost = getenv("MYSQL_SERVICE_HOST");
-$dbusername = 'root';
-$dbpassword = 'ubaya';
-$dbname = 'sampledb';
+$dbusername = getenv("dbusername");
+$dbpassword = getenv("dbpassword");
+$dbname = getenv("dbname");
 
 echo getenv("MYSQL_SERVICE_HOST");
 die();
