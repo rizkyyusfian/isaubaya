@@ -2,8 +2,9 @@
 
 $dbhost = getenv("MYSQL_SERVICE_HOST");
 $dbusername = getenv("dbusername");
-$dbpassword = getenv("dbpassword");
+$dbpassword = '';
 $dbname = getenv("dbname");
+
 
 $c = new mysqli($dbhost, $dbusername, $dbpassword, $dbname);
 if ($c->connect_error) {
