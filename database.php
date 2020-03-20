@@ -2,7 +2,7 @@
 
 $dbhost = getenv("MYSQL_SERVICE_HOST");
 $dbusername = 'root';
-$dbpassword = '';
+$dbpassword = 'ubaya';
 $dbname = 'sampledb';
 
 
