@@ -33,7 +33,8 @@
       <th>License</th>
     </tr>
     <?php
-
+    $sql = "SELECT * FROM driver ORDER by name ASC";
+    $result = $c->query($sql);
     if ($result->num_rows > 0) {
 
       $drivers = array();
