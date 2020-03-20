@@ -42,7 +42,7 @@ if ($c->connect_error) {
       <th>Name</th>
       <th>License</th>
     </tr>
-    <?php
+    <?php 
     $sql = "SELECT * FROM driver ORDER by name ASC";
     $result = $c->query($sql);
     if ($result->num_rows > 0) {
