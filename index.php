@@ -26,7 +26,7 @@ require_once("database.php");
 ?>
 <body>
 
-  <h2>Driver Online</h2>
+  <h2>Driver</h2>
 
   <table>
     <tr>
