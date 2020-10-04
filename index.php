@@ -33,7 +33,7 @@ require_once("database.php");
       <th>Nrp</th>
       <th>Nama</th>
       <th>Jurusan</th>
-      <th>Angkatan</th
+      <th>Angkatan</th>
     </tr>
     <?php
     $sql = "SELECT * FROM mahasiswa ORDER by nrp ASC";
